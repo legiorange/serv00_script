@@ -11,6 +11,9 @@ cmake .
 make
 cp /etc/resolv.conf chroot/etc 
 ./mrchroot chroot /bin/sh
+pkg bootstrap
+pkg update
+pkg upgrade
 #(optional) install bash
 #pkg install bash
 #./mrchroot chroot /usr/local/bin/bash
