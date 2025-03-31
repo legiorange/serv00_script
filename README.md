@@ -7,6 +7,7 @@ Easy to use serv00 with script.
 
 确认 Status 为 Enable
 
+* serv00的运行环境为freebsd，它不能安装docker。
 ## 概述
 
 `serv00_script` 是一个 [简化安装脚本]。它可以帮助用户 [快速地部署开发环境或者测试环境]。
@@ -21,7 +22,9 @@ Easy to use serv00 with script.
     ```
 
 2.  （可选）执行 install_MrchrootBSD.sh 来获取伪ROOT权限(也就是你的子目录具有root权限)：
-    ** 有安装 BASH 的可选项，你只需要修改脚本去掉符号 # 和(optional)一行**
+
+     ** 有安装 BASH 的可选项，你只需要修改脚本去掉符号 # 和(optional)一行**
+
     ```bash
     chmod +x serv00_script
     ```
