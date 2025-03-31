@@ -16,7 +16,7 @@ Easy to use serv00 with script.
 
 ## 安装
 
-1.  将 `[serv00_script](https://github.com/legiorange/serv00_script.git)` 文件下载到您的本地机器。
+1.  将 `[serv00_script](https://github.com/legiorange/serv00_script.git)` 文件下载到您的本地机器，如果不想使用MrchrootBSD来拓展玩法就不用下载了。
     ```bash
     git clone https://github.com/legiorange/serv00_script.git
     ```
@@ -28,6 +28,8 @@ Easy to use serv00 with script.
     ```bash
     chmod +x serv00_script
     ```
+    你可以新建一个 run.sh 来执行 ./mrchroot chroot /usr/local/bin/bash 指令来节省时间。
+    
 serv00 缺乏root权限，你必须利用MrchrootBSD来获得子目录的执行权限。
 
 ## 有用的指令
